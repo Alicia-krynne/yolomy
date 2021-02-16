@@ -5,14 +5,15 @@
   h1{
       background-image:image-set(hero.jpg)
   }
-  .container-fluid{
+  #container-fluid{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    background-image:url("/hero.jpg")
   }
   .card{
-      background-image: img(hero.jpg);
+    
 
   }
   .card-title{
@@ -22,5 +23,4 @@
       border: 20% solid rgb(228, 150, 5);
       padding: 70%x;
       margin: 20%;
-      
   }
