@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  h1{
+      background-image:image-set(hero.jpg)
+  }
+  .container-fluid{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  .card{
+      background-image: img(hero.jpg);
+
+  }
+  .card-title{
+      text-align: left;
+      font-family: sans-serif;
+      width: 100%;
+      border: 20% solid rgb(228, 150, 5);
+      padding: 70%x;
+      margin: 20%;
+      
+  }
