@@ -3,21 +3,14 @@
     margin: 0;
   }
   h1{
-      background-image:image-set(hero.jpg)
+    
   }
   #container-fluid{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    background-image:url("/hero.jpg")
-  }
+  
   .card{
-    
-
   }
   .card-title{
-      text-align: left;
+      text-align: right;
       font-family: sans-serif;
       width: 100%;
       border: 20% solid rgb(228, 150, 5);
