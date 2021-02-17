@@ -33,13 +33,12 @@
 }
 
 *{
-  padding: 0;
-    margin: 0;
+  padding: 2;
+  margin: 2;
 }
 h1{
   box-sizing: border-box;
-  background-color: #ffca2c;
-  background-image: url(./backgrounds/hero.jpg);
+  background-color: #eff5f7;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -49,13 +48,13 @@ h1{
 }
 
 body {
-  margin: 0;
+  margin: 2.5;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: rgb(241, 200, 16);
+  background-color: rgb(238, 236, 229);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -129,7 +128,7 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 1%;
   margin-bottom: 1rem;
 }
 
@@ -151,7 +150,7 @@ address {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 ol,
@@ -159,6 +158,10 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+li{
+  font-family: cursive;
+  color: #06357a;
 }
 
 ol ol,
@@ -173,7 +176,7 @@ dt {
 }
 
 dd {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   margin-left: 0;
 }
 
@@ -213,10 +216,29 @@ sup {
 
 a {
   color: #0d6efd;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #0a58ca;
+  /* unvisited link */
+a:link {
+  color: var(--bs-blue);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(154, 27, 228);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(231, 174, 17);
+}
+
+/* selected link */
+a:active {
+  color: rgb(153, 0, 255);
+}
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -311,11 +333,11 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 2;
 }
 
 button:focus:not(:focus-visible) {
-  outline: 0;
+  outline: 2;
 }
 
 input,
