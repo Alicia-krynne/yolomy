@@ -219,7 +219,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0a58ca;
+  color: #0a58ca; 
   /* unvisited link */
 a:link {
   color: var(--bs-blue);

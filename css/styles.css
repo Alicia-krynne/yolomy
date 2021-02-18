@@ -7,11 +7,9 @@
   padding: 10px;
   border: 2px solid rgb(10, 10, 10);
   margin: 0;
-  text-align: right;
+  text-align: left;
 }
-.header{
-    background-image: url(../backgrounds/hero.jpg);
-}
+
 .gallery0{
     float: none;
 }
@@ -19,18 +17,72 @@
     float: left;
 }
 .gallery2{
-    float: right;
+    float: left;
 }
 .gallery3{
 float: left;
 }
 .gallery4{
-    float: right;
+    float: left;
 }
 .gallery5{
     float: left;
 
 }
-div{
-    float: left;
+.gallery {
+  margin: 5px;
+  border: 1px solid rgb(7, 7, 7);
+  float: left;
+  width: 180px;
+}
+.desc{
     padding: 15px;
+  text-align: center;
+}
+a:link, a:visited {
+    background-color: #eb96dd;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  #background{
+      background-image: url(../bootstrap-practice-projects/backgrounds/hero.jpg);
+      color: azure;
+      text-align: center:justify;
+      opacity: 1;
+      height: 800px;
+      width: 1000px;
+  }
+  #heading{
+      text-align: center;
+      text-overflow: inherit;
+      width: 300px;
+      border: 5px solid rgb(227, 236, 227);
+      padding: 50px;
+      margin: 20px;
+  }
+  #aboutus{
+      background-image: url(../bootstrap-practice-projects/backgrounds/about.jpg);
+      background-repeat: no-repeat;
+      opacity: inherit;
+      text-align: center;
+      color: floralwhite;
+      border: 5px solid rgb(227, 236, 227);
+      padding: 50px;
+      margin: 20px;
+      height: 500px;
+      width: 800px;
+  }
+  #text{
+      text-align: center;
+    width: 300px;
+    border: 2px solid rgb(212, 110, 14);
+    padding: 50px;
+    margin: 20px;
+    float: right;
+  }
+  #h3{
+      float: right;
+  }
